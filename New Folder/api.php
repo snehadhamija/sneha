@@ -42,4 +42,8 @@ function convert_to_array($response){
     }
 return $response;
 }
+
+	echo "testing";
+	$response = api::call();
+?> 
 ?>
