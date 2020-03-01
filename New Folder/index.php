@@ -1,7 +1,7 @@
 <?php
 
 $request = new HttpRequest();
-$request->setUrl('http://localhost:8080/sneha/New Folder/beat');
+$request->setUrl('http://localhost:80/sneha/New Folder/beat');
 $request->setMethod(HTTP_METH_GET);
 
 $request->setHeaders(array(
