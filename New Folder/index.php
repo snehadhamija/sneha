@@ -3,8 +3,8 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_PORT => "443",
-  CURLOPT_URL => "http://localhost:443/sneha/New Folder/beat",
+  CURLOPT_PORT => "8080",
+  CURLOPT_URL => "http://localhost:8080/haryana",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
