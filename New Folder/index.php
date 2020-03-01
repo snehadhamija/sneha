@@ -4,7 +4,7 @@ $curl = curl_init();
 
 curl_setopt_array($curl, array(
   CURLOPT_PORT => "80",
-  CURLOPT_URL => "http://localhost:80/hry",
+  CURLOPT_URL => "http://localhost:80/sneha/New Folder",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
